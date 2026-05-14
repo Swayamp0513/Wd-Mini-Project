@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie's Restaurant</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+    }
+
+    header{
+      background:#ff5722;
+      color:white;
+      padding:15px 0;
+    }
+
+    nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      width:90%;
+      margin:auto;
+    }
+
+    nav h1{
+      font-size:32px;
+    }
+
+    nav ul{
+      display:flex;
+      list-style:none;
+    }
+
+    nav ul li{
+      margin-left:20px;
+    }
+
+    nav ul li a{
+      text-decoration:none;
+      color:white;
+      font-size:18px;
+    }
+
+    .hero{
+      height:85vh;
+      background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200') center/cover;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:white;
+      text-align:center;
+    }
+
+    .hero-content{
+      background:rgba(0,0,0,0.6);
+      padding:30px;
+      border-radius:10px;
+    }
+
+    .hero-content h2{
+      font-size:50px;
+      margin-bottom:15px;
+    }
+
+    .hero-content p{
+      font-size:20px;
+      margin-bottom:20px;
+    }
+
+    .btn{
+      background:#ff5722;
+      color:white;
+      padding:12px 25px;
+      text-decoration:none;
+      border-radius:5px;
+      font-size:18px;
+    }
+
+    footer{
+      background:#222;
+      color:white;
+      text-align:center;
+      padding:15px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+
+  <nav>
+    <h1>Foodie's</h1>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-content">
+    <h2>Welcome to Foodie's Restaurant</h2>
+    <p>Delicious Food | Fresh Ingredients | Great Taste</p>
+
+    <a href="menu.html" class="btn">Explore Menu</a>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Foodie's Restaurant</p>
+</footer>
+
+</body>
+</html>
