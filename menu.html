@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu</title>
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:#f4f4f4;
+}
+
+header{
+  background:#ff5722;
+  padding:15px;
+  text-align:center;
+}
+
+header a{
+  color:white;
+  text-decoration:none;
+  margin:0 15px;
+  font-size:18px;
+}
+
+h1{
+  text-align:center;
+  margin:30px 0;
+}
+
+.menu-container{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
+  padding:20px;
+}
+
+.card{
+  width:250px;
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+.card-content{
+  padding:15px;
+  text-align:center;
+}
+
+.card-content h3{
+  margin-bottom:10px;
+}
+
+.price{
+  color:#ff5722;
+  font-size:20px;
+  font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <a href="index.html">Home</a>
+  <a href="menu.html">Menu</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</header>
+
+<h1>Our Menu</h1>
+
+<div class="menu-container">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800" alt="">
+    <div class="card-content">
+      <h3>Burger</h3>
+      <p class="price">₹120</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800" alt="">
+    <div class="card-content">
+      <h3>Pizza</h3>
+      <p class="price">₹250</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?q=80&w=800" alt="This Image is of Pasta(Italian Cuisine Dish)- Image is not loading due to network or server issue">
+    <div class="card-content">
+      <h3>Pasta</h3>
+      <p class="price">₹180</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
